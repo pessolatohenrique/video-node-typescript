@@ -8,5 +8,6 @@ routes.get("/", (req, res) => {
 });
 
 routes.get("/users", UserController.index);
+routes.get("/user/email", UserController.email);
 
 export default routes;
